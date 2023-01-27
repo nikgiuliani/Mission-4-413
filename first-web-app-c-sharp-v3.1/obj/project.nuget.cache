@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "j3ac/1a5ybsv0pv1NWWMDAyHZFC+C/lBpvShntmDJGjDMlzY8Z0HJ3eSj5MdfF2ObayGSy8NEqMXuiN9MeWKUA==",
+  "success": true,
+  "projectFilePath": "/Users/nikgiuliani/projects/is-core-projects/is-413/mission-4-v3.1/first-web-app-c-sharp-v3.1/first-web-app-c-sharp-v3.1/first-web-app-c-sharp-v3.1.csproj",
+  "expectedPackageFiles": [
+    "/Users/nikgiuliani/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/Users/nikgiuliani/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/nikgiuliani/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.32/microsoft.netcore.app.host.osx-x64.3.1.32.nupkg.sha512"
+  ],
+  "logs": []
+}
