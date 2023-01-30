@@ -1,0 +1,152 @@
+<!-- Nik Giuliani 1/29/2023 -->
+<!-- My index page -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title> About me </title>
+    <link rel="icon" type="image/x-icon" href="assets/cheese.png" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+        rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/my-styles.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Header -->
+    <header class="masthead background-color">
+        <div class="container position-relative px-4 px-lg-5" style="display: grid; grid-template-columns: auto auto;">
+            <div class="row gx-4 gx-lg-5" style="justify-content: flex-start;">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <img src="assets/img/IMG-3283.jpg" height="400px" width="300px" alt="Playing cards and losing">
+                </div>
+            </div>
+            <div class="row gx-4 gx-lg-5" style="justify-content: flex-end;">
+                <div class="site-heading" style="padding-top: 120px;">
+                    <h1>Nik Giuliani</h1>
+                    <span class="subheading"> Software Engineer </span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Main Content-->
+    <div class="container px-4 px-lg-5" style="padding-bottom: 50px;">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <!-- What I hope to get out of the class -->
+                <div class="post-preview">
+                    <a href="post.html">
+                        <h2 class="post-title">What I hope to get out of IS 143</h2>
+                        <h3 class="post-subtitle">I hope to learn the skills necessary to develop my own ASP.net apps in the future.</h3>
+                    </a>
+                </div>
+                <!-- Divider-->
+                <hr class="my-4" />
+                <!-- top 3 jobs-->
+                <div class="post-preview">
+                    <a href="post.html">
+                        <h2 class="post-title">My top 3 jobs:</h2>
+                        <ul>
+                            <li>
+                                <span class="post-subtitle">Software Engineer</span>
+                            </li>
+                            <li>
+                                <span class="post-subtitle">Senior Software Engineer</span>
+                            </li>
+                            <li>
+                                <span class="post-subtitle">Program Manager</span>
+                            </li>
+                        </ul>
+                    </a>
+                </div>
+                <!-- Divider-->
+                <hr class="my-4" />
+                <!-- The calculator and the place to print results -->
+                <h2> Use this to calculate your grade in the class!</h2>
+                <div class="post-subtitle"> Enter in the values as whole-number percents (i.e. 90% -> 90): </div>
+                <br>
+                <div class="calculator-grid">
+                    <div>
+                        <form class="calculator-percentages">
+                            <div>
+                                <label for="assignments">Assignments</label>
+                                <input id="assignments" type="number">
+                            </div>
+                            <div>
+                                <label for="project">Group Project</label>
+                                <input id="project" type="number"></div>
+                            <div>
+                                <label for="quizzes">Quizzes</label>
+                                <input id="quizzes" type="number"></div>
+                            <div>
+                                <label for="midterm">Midterm Exam</label>
+                                <input id="midterm" type="number"></div>
+                            <div>
+                                <label for="final">Final</label>
+                                <input id="final" type="number"></div>
+                            <div>
+                                <label for="intex">INTEX</label>
+                                <input id="intex" type="number">
+                            </div>
+                        </form>
+                        <button id="calcSubmit"> Submit </button>
+                    </div>
+                    <div>
+                        <div> Grade: <span id="grade"> </span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer-->
+    <footer class="border-top">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item">
+                            <!-- Link to linkedin account -->
+                            <a href="https://www.linkedin.com/in/nikolasgiuliani" target="_blank">
+                                <span class="fa-stack fa-lg"> 
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <!-- Link to github account -->
+                            <a href="https://github.com/nikgiuliani" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="small text-center text-muted fst-italic">Copyright &copy; Nik Giuliani 2000-2023</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- jquery -->
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+    <!-- Calculator -->
+    <script src="js/calculator.js"></script>
+
+</body>
+</html>

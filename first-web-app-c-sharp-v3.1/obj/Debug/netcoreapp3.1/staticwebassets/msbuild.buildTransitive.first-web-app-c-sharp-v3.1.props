@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/first-web-app-c-sharp-v3.1.props" />
+</Project>

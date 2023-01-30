@@ -1,0 +1,14 @@
+/* My Personal style sheet and styles */
+header.background-color {
+    background-color: rgb(43, 228, 231);
+}
+
+.calculator-percentages {
+    display: grid;
+    grid-template-columns: 140px;
+}
+
+div.calculator-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
