@@ -7,7 +7,7 @@ $("#calcSubmit").click(() => {
     const fGrade = $("#final").val() * 10;
     const iGrade = $("#intex").val() * 10;
     const totalPoints = aGrade + pGrade + cGrade+ mGrade + fGrade + iGrade;
-    const grade = round(totalPoints / 100);
+    const grade = Math.round(totalPoints / 100);
     let letterGrade = '';
     if (grade > 93) letterGrade = 'A';
     else if (grade < 94 && grade >= 90) letterGrade = 'A-';
